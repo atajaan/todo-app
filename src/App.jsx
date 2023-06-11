@@ -43,7 +43,6 @@ function App() {
       </form>
       <div className="tasks">
         {tasks.map((task, index) => (
-          // eslint-disable-next-line react/jsx-key
           <div className="task">
             <p>{task}</p>
             <button onClick={() => remove(index)}>x</button>
