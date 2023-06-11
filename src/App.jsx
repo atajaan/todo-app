@@ -15,7 +15,6 @@ function App() {
       setTasks([...tasks, input.trim()])
       setInput("")
     }
-    
   }
 
   function handleEnter({key}) {
